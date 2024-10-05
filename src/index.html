@@ -5,45 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="max-w-[100%]">
-  <div class="max-w-[100%] border-b-2 border-gray-400 flex flex-row justify-between align-middle">
+<body class="min-w-[100%]">
+  <div class="min-w-[100%] min-h-[5vh] border-b-2 border-gray-400 flex flex-row justify-between align-middle">
     <div class="flex flex-row justify-between">
       <img class="min-w-[20%] p-2" src="assets/images/logo.svg" alt="logo"/>
-      <span class="m-auto p-1 font-sans text-gray-500">Premium landing page template</span>
+      <span class="m-auto text-sm md:text-xl p-1 font-sans text-gray-500">Premium landing page template</span>
     </div>
     <div class="text-[#DE3B40FF] font-bold font-sans pr-3 flex flex-row justify-between align-middle">
-      <span class="m-auto p-1">Call Now!</span>
-      <span class="m-auto p-1">1-800-123-4567</span>
+      <span class="m-auto text-sm md:text-xl p-1">Call Now!</span>
+      <span class="m-auto text-sm md:text-xl p-1">1-800-123-4567</span>
     </div>
   </div>
 
-  <div class="flex flex-row justify-between mt-10">
-    <div class="w-[50%] ">
-      <p class="mx-[10%] my-[5%] text-5xl font-bold">The perfect way to convert your traffic into sales</p>
-      <p class="mx-[10%] my-[5%] w-[60%] text-xl font-sans text-gray-500">Occaecat est ipsum reprehenderit reprehenderit veniam anim laborum est esse duis occaecat reprehenderit pariatur.</p>
-      <p class="mx-[10%] my-[5%] w-[60%] text-xl font-sans text-gray-500">Occaecat est ipsum reprehenderit reprehenderit veniam anim laborum est esse duis occaecat reprehenderit pariatur.</p>
-      <span class="flex flex-row justify-center">
-        <button class="bg-[#DE3B40FF] text-white text-3xl font-bold py-2 px-4 rounded-full">Purchase now!</button>
-        <p class="my-auto mx-4 text-xl font-bold">or</p>
-        <button class="bg-white text-[#DE3B40FF] text-3xl font-bold py-2 px-4 border-4 border-[#DE3B40FF] rounded-full">Take a tour</button>
-      </span>
+  <div class="border-b-2 border-gray-400 flex flex-row justify-between h-[60vh] md:h-[85vh] lg:h-[95vh]">
+    <div class="w-[50%] my-auto">
+      <p class="mx-[10%] my-[5%] w-[100vh] md:w-auto text-[1.2rem] md:text-3xl lg:text-5xl font-bold">The perfect way to convert your traffic into sales</p>
+      <p class="mx-[10%] my-[5%] w-[80%] text-sm md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Occaecat est ipsum reprehenderit reprehenderit veniam anim laborum est esse duis occaecat reprehenderit pariatur.</p>
+      <p class="mx-[10%] my-[5%] w-[80%] text-sm md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Occaecat est ipsum reprehenderit reprehenderit veniam anim laborum est esse duis occaecat reprehenderit pariatur.</p>
+      <div class="mx-[10%] flex-col flex md:flex-row justify-center align-middle">
+        <button class="bg-[#DE3B40FF] text-white text-[10px]  md:text-1xl lg:text-3xl font-bold py-2 px-4 rounded-full">Purchase now!</button>
+        <p class="my-auto mx-4 text-sm md:text-lg lg:text-xl font-bold text-center">or</p>
+        <button class="bg-white text-[#270f10] text-xs md:text-1xl lg:text-3xl font-bold py-2 px-4 border-4 border-[#DE3B40FF] rounded-full">Take a tour</button>
+      </div>
     </div>
-    <img class="mr-[5%] my-auto w-[35%] h-[35%]" src="assets/images/img1.jpg" alt="img1"/>
+    <img class="mr-[5%] my-auto min-w-[200px] w-[35%] h-auto" src="assets/images/img1.jpg" alt="img1"/>
   </div>
 
-  <div>
-    <div>
+  <div class="border-b-2 border-gray-400 flex-col flex md:flex-row justify-evenly text-center py-5 h-auto md:h-[75vh] lg:h-[85vh]">
+    <div class="w-[90%] md:w-[25%] my-auto mx-auto flex flex-row md:flex-col">
+      <img class="md:mb-[25px] w-[25%] md:w-[60%] h-auto m-auto" src="assets/icons/icon1.png" alt="icon"/>
+      <div class="w-[70%] md:w-auto text-balance m-auto"> 
+        <span class="text-2xl font-bold m-auto">Quick and easy</span>
+        <p class="text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
+      </div>    
+    </div>
+
+    <div class="w-[90%] md:w-[25%] my-auto mx-auto flex flex-row md:flex-col">
+      <img class="md:mb-[25px] w-[25%] md:w-[60%] h-auto m-auto" src="assets/icons/icon1.png" alt="icon"/>
+      <div class="w-[70%] md:w-auto text-balance m-auto">
+        <span class="text-2xl font-bold m-auto">Less risky</span>
+        <p class="text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
+      </div>    
+    </div>
+
+    <div class="w-[90%] md:w-[25%] my-auto mx-auto flex flex-row md:flex-col">
+      <img class="md:mb-[25px] w-[25%] md:w-[60%] h-auto m-auto" src="assets/icons/icon1.png" alt="icon"/>
+      <div class="w-[70%] md:w-auto text-balance m-auto">
+        <span class="text-2xl font-bold m-auto">Optimized</span>
+        <p class="text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
+      </div>    
+    </div>
+
+  </div>
+
+  <div class="border-b-2 border-gray-400 py-[5%]">
+    <p class="text-2xl font-bold ml-[4%]">Check out the features</p>
+    <div class=" flex flex-col md:flex-row justify-start my-auto">
+      <div class="w-[90%] md:w-[40%] ml-[4%] my-4">
+        <p class="text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quam consequatur molestias voluptas voluptatem sapiente maiores impedit, sequi possimus laborum cupiditate, vitae ducimus illo vero nostrum explicabo ex dolorum dolore?</p>
+        <p class="text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maiores saepe nam, enim praesentium facilis totam, commodi dignissimos culpa magnam hic tempore eos rem consequuntur quasi porro maxime minima quo!</p>
+      </div>
+      <div class="flex flex-row flex-wrap md:flex-col pl-28 my-4 gap-5 mx-auto">
+        <span>
+          <img class="inline w-[4%] h-auto m-auto" src="assets/icons/icon2.png" alt="icon2"/>
+          <span class="mb-3 border-b-[1px] m-auto border-gray-400 text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-orange-500">Lorem ipsum dolor sit amet</span>
+        </span>
+        <span>
+          <img class="inline w-[4%] h-auto m-auto" src="assets/icons/icon2.png" alt="icon2"/>
+          <span class="mb-3 border-b-[1px] border-gray-400 text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-orange-500">Lorem ipsum dolor sit amet</span>
+        </span>
+        <span>
+          <img class="inline w-[4%] h-auto m-auto" src="assets/icons/icon2.png" alt="icon2"/>
+          <span class="mb-3 border-b-[1px] border-gray-400 text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-orange-500">Lorem ipsum dolor sit amet</span>
+        </span>
+        <span>
+          <img class="inline w-[4%] h-auto m-auto" src="assets/icons/icon2.png" alt="icon2"/>
+          <span class="mb-3 border-b-[1px] border-gray-400 text-[12px] md:text-base lg:text-lg xl:text-xl font-sans text-orange-500">Lorem ipsum dolor sit amet</span>
+        </span>
+      </div>  
+    </div>
+  </div>
+
+  <div class="border-b-2 border-gray-400 py-[5%]">
+    <p class="text-2xl font-bold ml-[4%]">The screenshots</p>
+    <div class=" flex flex-row justify-evenly my-auto">
       
-      <span>Quick and easy</span>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
     </div>
-    <div>
-      <span>Less risky</span>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
-    </div>
-    <div>
-      <span>Optimized</span>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, hic officia, atque est laborum nesciunt sint quod incidunt dignissimos aliquam, dicta delectus ut numquam accusantium dolore dolorem molestiae nam veniam!</p>
   </div>
 </body>
 </html>
