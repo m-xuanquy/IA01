@@ -1,3 +1,20 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.slick-prev {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  
+.slick-next {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }

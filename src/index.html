@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="./input.css" rel="stylesheet">
+
 </head>
 <body class="min-w-[100%] font-sans">
-  <div class="min-h-[5vh] border-b-2 border-gray-400 flex flex-row justify-between align-middle">
+  <div class="border-b-2 border-gray-400 flex flex-row justify-between align-middle">
     <div class="flex flex-row justify-between">
       <img class="w-[30%] p-[1%]" src="assets/images/logo.svg" alt="logo"/>
-      <span class="m-auto text-[10px] sm:text-base md:text-lg lg:text-xl xl:text-2xl p-[1%] font-sans text-gray-500">Premium landing page template</span>
+      <p class="m-auto text-[10px] text-left sm:text-base md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl p-[1%] font-sans text-gray-500 w-auto">Premium landing page template</p>
     </div>
     <div class="text-[#DE3B40FF] font-bold font-sans pr-3 flex flex-row justify-between align-middle">
       <span class="m-auto text-[10px] sm:text-base md:text-lg lg:text-xl xl:text-2xl p-1">Call Now!</span>
@@ -28,7 +31,10 @@
         <button class="bg-white text-[#270f10] text-[10px] md:text-lg lg:text-2xl xl:text-3xl font-bold py-2 px-4 border-4 border-[#DE3B40FF] rounded-full">Take a tour</button>
       </div>
     </div>
-    <img class="m-auto my-auto min-w-[300px] w-[35%] h-auto" src="assets/images/img2.jpg" alt="img1"/>
+    <div class="slider single-item m-auto my-auto min-w-[300px] w-[35%] h-auto">
+      <img src="assets/images/img2.jpg" alt="img1"/>
+      <img src="assets/images/img2.jpg" alt="img1"/>
+    </div>
   </div>
 
   <div class="border-b-2 border-gray-400 flex-col flex lg:flex-row justify-evenly text-center py-[5%] h-auto">
@@ -143,5 +149,27 @@
 
     </div>
   </div>
+  
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.single-item').slick({
+        arrows: true,
+        infinite: true,
+        speed: 300,
+        
+        adaptiveHeight: true,
+        autoplay:true,
+
+        prevArrow:"<img class='a-left control-c prev slick-prev h-[10%] rounded-full bg-white' src='assets/icons/arrow-back.svg'>",
+        nextArrow:"<img class='a-right control-c next slick-next h-[10%] rounded-full bg-white' src='assets/icons/arrow-forward.svg'>"
+      });
+    });
+  </script>
+
+
 </body>
-</html> 
+</html>   
